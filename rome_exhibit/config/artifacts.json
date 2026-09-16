@@ -1,0 +1,62 @@
+[
+  {
+    "id": "artifact_coin",
+    "name": "Roman Coin",
+    "meta": "Denarius \u00b7 Silver",
+    "period": "1ST CENTURY AD",
+    "emoji": "\ud83e\ude99",
+    "image": "coin.jpg",
+    "description": "A small silver denarius, the everyday currency of the Roman world \u2014 used to buy bread, pay soldiers, and settle debts across the empire.",
+    "facts": [
+      "A legionary earned roughly 225 denarii a year under Augustus.",
+      "Coins carried the emperor's portrait, making them a tool of propaganda.",
+      "Denarius comes from the Latin for 'containing ten', its original value in bronze asses."
+    ],
+    "lighting": { "mode": "gold", "color": "#D6B57C" }
+  },
+  {
+    "id": "artifact_helmet",
+    "name": "Roman Helmet",
+    "meta": "Galea \u00b7 Bronze & Iron",
+    "period": "1ST\u20132ND CENTURY AD",
+    "emoji": "\u2694\ufe0f",
+    "image": "helmet.jpg",
+    "description": "A legionary's galea, built to deflect downward sword blows with its broad neck-guard and reinforced brow band.",
+    "facts": [
+      "Cheek guards were hinged so the helmet could be removed quickly.",
+      "A horsehair crest often marked rank rather than decoration alone.",
+      "Padded liners protected against the weight of the metal shell."
+    ],
+    "lighting": { "mode": "ember", "color": "#9C3B2A" }
+  },
+  {
+    "id": "artifact_vase",
+    "name": "Roman Vase",
+    "meta": "Amphora \u00b7 Terracotta",
+    "period": "2ND CENTURY BC \u2013 1ST AD",
+    "emoji": "\ud83c\udffa",
+    "image": "vase.jpg",
+    "description": "An amphora used to transport wine, olive oil, and fish sauce across the Mediterranean by ship \u2014 the shipping container of the ancient world.",
+    "facts": [
+      "The pointed base let amphorae be stacked upright in wet sand for stability.",
+      "Merchants stamped the clay with a maker's mark before firing.",
+      "Wrecked amphorae are one of the main ways archaeologists trace ancient trade routes."
+    ],
+    "lighting": { "mode": "amber", "color": "#B4915A" }
+  },
+  {
+    "id": "artifact_temple",
+    "name": "Temple Relief",
+    "meta": "Marble Fragment",
+    "period": "1ST CENTURY BC",
+    "emoji": "\ud83c\udfdb\ufe0f",
+    "image": "temple.jpg",
+    "description": "A carved marble fragment from a temple frieze, once brightly painted, showing scenes honouring a Roman deity.",
+    "facts": [
+      "Temple exteriors were originally painted in vivid colour, not bare white marble.",
+      "Reliefs like this often depicted processions, sacrifices, or myths.",
+      "Temples served as both religious sites and treasuries for the city."
+    ],
+    "lighting": { "mode": "marble", "color": "#EDE6D6" }
+  }
+]

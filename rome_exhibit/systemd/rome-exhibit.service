@@ -1,0 +1,15 @@
+[Unit]
+Description=Ancient Rome Exhibit - Flask backend
+After=network.target
+
+[Service]
+# Change the path below if you copied the project somewhere other than
+# /root/rome_exhibit. Runs as root because the LED strip needs that.
+WorkingDirectory=/root/rome_exhibit
+ExecStart=/root/rome_exhibit/venv/bin/python3 main.py
+Restart=always
+RestartSec=3
+User=root
+
+[Install]
+WantedBy=multi-user.target

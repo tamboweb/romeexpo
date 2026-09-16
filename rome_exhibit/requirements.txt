@@ -1,0 +1,8 @@
+Flask==3.0.3
+
+# NFC reader (PN532 over SPI)
+adafruit-blinka==8.50.0
+adafruit-circuitpython-pn532==2.3.7
+
+# WS2812B LED strip
+rpi_ws281x==5.0.0

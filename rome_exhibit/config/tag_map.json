@@ -1,0 +1,6 @@
+{
+  "_comment": "Add one line per physical tag: \"UID\": \"artifact_id\". Find each tag's UID by running tools/scan_uid.py and holding the tag to the reader.",
+
+  "04A1B2C3D4": "artifact_coin",
+  "04E5F6A7B8": "artifact_helmet"
+}

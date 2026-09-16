@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>ANCIENT ROME — Interactive Exhibit</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Spectral:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+<div id="stage" data-theme="dark">
+  <div class="meander"></div>
+
+  <button id="dev-toggle" title="Developer simulation menu">⚙</button>
+  <div id="dev-panel">
+    <h3>Simulate NFC Scan</h3>
+    <p class="note">Stands in for the PN532 reader until it's wired up. Selecting one behaves exactly like a real tag scan.</p>
+    <div id="dev-buttons"></div>
+    <button class="dev-btn unknown" data-action="unknown">Simulate unrecognised tag</button>
+    <button class="dev-btn reset" data-action="reset">Reset to idle</button>
+  </div>
+
+  <section id="screen-idle">
+    <div class="eyebrow-mark">SPQR</div>
+    <h1 class="title">ANCIENT <span class="accent">ROME</span></h1>
+    <p class="subtitle">An interactive journey through everyday life, power, and belief in the Roman world.</p>
+    <div class="pedestal-prompt"><span class="dot"></span>PLACE ARTIFACT ON THE PEDESTAL</div>
+  </section>
+
+  <section id="screen-identifying">
+    <div class="ring"></div>
+    <div class="identified-text">ARTIFACT IDENTIFIED</div>
+  </section>
+
+  <section id="screen-artifact">
+    <div class="art-visual">
+      <div class="glow"></div>
+      <img class="art-image" id="art-image" src="" alt="">
+      <div class="art-emoji" id="art-emoji">🏺</div>
+      <div class="art-period-tag" id="art-period">1ST CENTURY AD</div>
+    </div>
+    <div class="art-info">
+      <h2 id="art-name">Roman Coin</h2>
+      <p class="art-meta" id="art-meta">Denarius · Silver</p>
+      <p class="art-desc" id="art-desc">…</p>
+      <ul class="art-facts" id="art-facts"></ul>
+      <div class="art-footer">
+        <button class="btn-back" id="btn-back">← BACK</button>
+        <span class="scan-hint">Place another artifact to continue exploring</span>
+      </div>
+    </div>
+  </section>
+
+  <div id="toast-unknown">Artifact not recognised — try another object on the pedestal.</div>
+</div>
+
+<script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
