@@ -1,19 +1,19 @@
 [
-  {
-    "id": "artifact_coin",
-    "name": "Roman Coin",
-    "meta": "Denarius \u00b7 Silver",
-    "period": "1ST CENTURY AD",
-    "emoji": "\ud83e\ude99",
-    "image": "coin.jpg",
-    "description": "A small silver denarius, the everyday currency of the Roman world \u2014 used to buy bread, pay soldiers, and settle debts across the empire.",
-    "facts": [
-      "A legionary earned roughly 225 denarii a year under Augustus.",
-      "Coins carried the emperor's portrait, making them a tool of propaganda.",
-      "Denarius comes from the Latin for 'containing ten', its original value in bronze asses."
-    ],
-    "lighting": { "mode": "gold", "color": "#D6B57C" }
-  },
+ {
+  "id": "artifact_oil_lamp",
+  "name": "Roman Oil Lamp",
+  "meta": "Oil Lamp · Ceramic",
+  "period": "1ST–2ND CENTURY AD",
+  "emoji": "🪔",
+  "image": "oil-lamp.jpg",
+  "description": "A small ceramic lamp used by Romans to provide light, usually fuelled by olive oil and lit with a wick.",
+  "facts": [
+    "Roman oil lamps were commonly fuelled with olive oil.",
+    "The wick was usually made from a fibrous material such as linen.",
+    "Many lamps were decorated with figures, patterns or scenes."
+  ],
+  "lighting": { "mode": "amber", "color": "#C58B45" }
+},
   {
     "id": "artifact_helmet",
     "name": "Roman Helmet",
